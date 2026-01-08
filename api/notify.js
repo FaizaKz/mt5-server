@@ -8,10 +8,10 @@ export const config = {
 
 // list of emails to send to
 const emails = [
-  "email1@example.com",
-  "email2@example.com",
-  "email3@example.com",
-  "email4@example.com"
+  "faizakz1987@gmail.com",
+  "shaikhshahbazkhan@gmail.com",
+  "kamraniqbalahmed1808@gmail.com,
+  "rehan_mughal@ymail.com"
 ];
 
 // Gmail SMTP transporter (use Vercel environment variables)
@@ -70,4 +70,5 @@ export default async function handler(req, res) {
 
   return res.status(200).json({ status: "OK", received: message });
 }
+
 
